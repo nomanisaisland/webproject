@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>jQuery仿京东网站</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/demo.css">
+</head>
+<body>
+	
+	<div class="header">
+		<div class="header-top">
+			<div>
+				<a href="#">
+					<i cla	ss="logo-bf"></i>
+				</a>
+				<span class="header-del" id="header_del">&times</span>
+			</div>
+		</div>
+		<div class="header-po">
+			<div class="header-nav">
+				<div>
+					<span class="location"><a href=""><i class="header-nav-d"></i>北京</a></span>
+					<p class="header-nav-right">
+						<span><a href="">您好，请登陆</a></span>
+						<span class="tvl"></span>
+						<span><a href="">免费注册</a></span>
+						<span class="tvl"></span>
+						<span><a href="">我的订单</a></span>
+						<span class="tvl"></span>
+						<span><a href="">我的京东</a></span>
+						<span class="tvl"></span>
+						<span><a href="">京东会员</a></span>
+						<span class="tvl"></span>
+						<span><a href="">企业采购</a></span>
+						<span class="tvl"></span>
+						<span><a href="">客户服务</a></span>
+						<span class="tvl"></span>
+						<span><a href="">网站导航</a></span>
+						<span class="tvl"></span>
+						<span><a href="">手机京东</a></span>
+					</p>
+				</div>
+			</div>
+			<div>
+				<div class="header-form">
+					<form action="#" target="post" class="header-seach">
+						<input type="text" name="seach" value="路由无线" class="seach-text">
+						<input type="button" name="seach" class="seach-btn" value="seach">
+					</form>
+					<div class="header-form-sc">
+						<p>
+							<span class="sc-word"><i class="sc-logo"></i>我的购物车</span>
+							<span class="sc-word">0</span>
+						</p>
+					</div>
+				</div>
+				<div class="header-sm-nav">
+					<p>
+						<span><a href="#">11.11限量</a></span>
+						<span><a href="">低至5折</a></span>
+						<span><a href="">养殖89-30</a></span>
+						<span><a href="">5折嗨购</a></span>
+						<span><a href="">亿元礼券</a></span>
+						<span><a href="">烤箱</a></span>
+						<span><a href="">移动硬盘1t</a></span>
+						<span><a href="">山姆放心购</a></span>
+						<span><a href="">录音</a></span>
+					</p>
+				</div>
+			</div>
+			<div class="header-sm-nav header-lg-nav">					
+				<p>
+					<span><a href="">秒杀</a></span>
+					<span class="tvl"></span>
+					<span><a href="">优惠券</a></span>
+					<span class="tvl"></span>
+					<span><a href="">闪购</a></span>
+					<span class="tvl"></span>
+					<span><a href="">拍卖</a></span>
+					<span class="tvl"></span>
+					<span><a href="">服装城</a></span>
+					<span class="tvl"></span>
+					<span><a href="">京东超市</a></span>
+					<span class="tvl"></span>
+					<span><a href="">生鲜</a></span>
+					<span class="tvl"></span>
+					<span><a href="">全球购</a></span>
+					<span class="tvl"></span>
+					<span><a href="">京东金融</a></span>
+				</p>
+				<div class="header-lg-fullcut">
+						<a href=""></a>
+				 </div>
+			</div>
+			<div class="jd-dog">
+				<img src="images/jd.gif">
+			</div>
+		</div>
+	</div>
+	<di class="container">
+		<div class="container-content">
+			<div class="container-side-nav">
+				<ul class="side_nav">
+					<li id="nav_hea">
+						<a href="">
+							家用电器
+						</a>
+					</li>
+					<li id="nav_mop">
+						<a href="">
+							手机
+						</a>
+						<span>/</span>
+						<a href="">
+							运营商
+						</a>
+						<span>/</span>
+						<a href="">
+							数码
+						</a>
+					</li>
+					<li id="nav_com">
+						<a href="">
+						 	电脑
+						</a>
+						<span>/</span>
+						<a href="">
+						 	办公
+						</a>
+					</li>
+					<li id="nav_hfu">
+						<a href="">
+							家居	
+						</a>
+						<span>/</span>
+						<a href="">
+							家具
+						</a>
+						<span>/</span>
+						<a href="">
+							家装
+						</a>
+						<span>/</span>
+						<a href="">
+							厨具
+						</a>
+					</li>
+					<li id="nav_mcl">
+						<a href="">
+							男装
+						</a>
+						<span>/</span>
+						<a href="">
+							女装
+						</a>
+						<span>/</span>
+						<a href="">
+							童装
+						</a>
+						<span>/</span>
+						<a href="">
+							内衣
+						</a>
+					</li>
+					<li id="nav_wms">
+						<a href="">
+							女鞋
+						</a>
+						<span>/</span>
+						<a href="">
+							箱包
+						</a>
+						<span>/</span>
+						<a href="">
+							钟表
+						</a>
+						<span>/</span>
+						<a href="">
+							珠宝
+						</a>
+					</li>
+					<li id="nav_mas">
+						<a href="">
+							男鞋
+						</a>
+						<span>/</span>
+						<a href="">
+							运动
+						</a>
+						<span>/</span>
+						<a href="">
+							户外
+						</a>
+					</li>
+					<li id="nav_car">
+						<a href="">
+							汽车
+						</a>
+						<span>/</span>
+						<a href="">
+							汽车用品
+						</a>
+					</li>
+					<li id="nav_mab">
+						<a href="">
+							母婴
+						</a>
+						<span>/</span>
+						<a href="">
+							玩具乐器
+						</a>
+					</li>
+					<li id="nav_fod">
+						<a href="">
+							食品
+						</a>
+						<span>/</span>
+						<a href="">
+							酒类
+						</a>
+						<span>/</span>
+						<a href="">
+							生鲜
+						</a>
+						<span>/</span>
+						<a href="">
+							特产
+						</a>
+					</li>
+					<li id="nav_gif">
+						<a href="">
+							礼品
+						</a>
+						<span>/</span>
+						<a href="">
+							鲜花
+						</a>
+						<span>/</span>
+						<a href="">
+							农贸绿植
+						</a>
+					</li>
+					<li id="nav_med">
+						<a href="">
+							医药保健
+						</a>
+						<span>/</span>
+						<a href="">
+							计生情趣
+						</a>
+					</li>
+					<li id="nav_bok">
+						<a href="">
+							图书
+						</a>
+						<span>/</span>
+						<a href="">
+							电子书
+						</a>
+						<span>/</span>
+						<a href="">
+							音响
+						</a>
+					</li>
+					<li id="nav_tit">
+						<a href="">
+							机票
+						</a>
+						<span>/</span>
+						<a href="">
+							酒店
+						</a>
+						<span>/</span>
+						<a href="">
+							旅游
+						</a>
+						<span>/</span>
+						<a href="">
+							生活
+						</a>
+					</li>
+					<li id="nav_cft ">
+						<a href="">
+							理财
+						</a>
+						<span>/</span>
+						<a href="">
+							众筹
+						</a>
+						<span>/</span>
+						<a href="">
+							白条
+						</a>
+						<span>/</span>
+						<a href="">
+							保险
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!--二级导航-->
+			<div class="side-nav-se" id="side_nav_sefi">
+				<h1>太多了，以后有空再写</h1>
+			</div>
+			<div class="side-nav-se" id="side_nav_sese">
+				2
+			</div>
+			<div class="side-nav-se" id="side_nav_seth">
+				3
+			</div>
+			<div class="side-nav-se" id="side_nav_sefo">
+				4
+			</div>
+			<div class="side-nav-se" id="side_nav_sefif">
+				5
+			</div>
+			<div class="side-nav-se" id="side_nav_sesix">
+				6
+			</div>
+			<div class="side-nav-se" id="side_nav_sesev">
+				7
+			</div>
+			<div class="side-nav-se" id="side_nav_seeig">
+				8
+			</div>
+			<div class="side-nav-se" id="side_nav_senin">
+				9
+			</div>
+			<div class="side-nav-se" id="side_nav_seten">
+				10
+			</div>
+			<div class="side-nav-se" id="side_nav_seele">
+				11
+			</div>
+			<div class="side-nav-se" id="side_nav_setwe">
+				12
+			</div>
+
+			<!--轮播图 -->
+			<div class="container-center">
+				<div class="carouselfigure" id="carouselfigure">
+					<img src="images/slide1.jpg">
+					<img src="images/slide2.jpg">
+					<img src="images/slide3.jpg">
+					<img src="images/slide4.jpg">
+					<img src="images/slide5.jpg">
+					<img src="images/slide6.jpg">
+					<img src="images/slide7.jpg">
+					<img src="images/slide8.jpg">
+					<ul class="carouselfigure-spot">
+						<li id="pot_one"></li>
+						<li id="pot_two"></li>
+						<li id="pot_three"></li>
+						<li id="pot_four"></li>
+						<li id="pot_five"></li>
+						<li id="pot_six"></li>
+						<li id="pot_seven"></li>
+						<li id="pot_eight"></li>
+					</ul>
+				</div>
+				<div class="quite-nav">
+					<a href=""><img src="images/sna.jpg!q90"></a>
+					<a href=""><img src="images/dig.jpg!q90"></a>
+				</div>
+			</div>
+			<div class="container-right-nav">
+				<div class="container-welcome">
+					<div class="welcome-logo"></div>
+					<div class="welcome-word">
+						<p class="">Hi,欢迎来到京东</p>
+						<p><a href="">登录</a><a href="">注册</a></p>
+					</div>
+					<div class="welcome-btn">
+						<a href="">新人福利</a>
+						<a href="">PLUS会员</a>
+					</div>
+				</div>
+				<div class="container-notice">
+					<div class="notice-title">
+						<div class="notice-title-left">
+							<span>促销</span>
+						</div>
+						<div class="notece-title-center">
+							<span>公告</span>
+						</div>
+						<div class="notice-title-right">
+							<a href="">更多</a>
+						</div>
+					</div>
+					<div class="notice-content">
+						<div class="content-one">
+							<ul class="content-list">
+								<li class="content-items"><a href="">抢百万神券，买顶级游戏装备</a></li>
+								<li class="content-items"><a href="">居家好物节满799减400</a></li>
+								<li class="content-items"><a href="">飘柔 挑战3天不洗头</a></li>
+								<li class="content-items"><a href="">京东游戏装备日，购开黑利器</a></li>
+							</ul>
+						</div>
+						<div class="content-two">
+							<ul class="content-list">
+								<li class="content-items"><a href="">天府大件运营中心开仓公告</a></li>
+								<li class="content-items"><a href="">京东知识服务正式上线 打造知</a></li>
+								<li class="content-items"><a href="">京东大件物流“送装一体”</a></li>
+								<li class="content-items"><a href="">京东扶贫频道正式上线运营</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="container-service">
+					<div>
+						<div class="service-items">
+							<span class="items-pbi"></span>
+							<p><a href="">话费</a></p>
+						</div>
+						<div class="service-items">
+							<span class="items-ppt"></span>
+							<p><a href="">机票</a></p>
+						</div>
+						<div class="service-items">
+							<span class="items-ph"></span>
+							<p><a href="">酒店</a></p>
+						</div>
+						<div class="service-items">
+							<span class="items-pga"></span>
+							<p><a href="">游戏</a></p>
+						</div>
+					</div>
+					<div>
+						<div class="service-items">
+							<span class="items-pen"></span>
+							<p><a href="">企业购</a></p>
+						</div>
+						<div class="service-items">
+							<span class="items-prc"></span>
+							<p><a href="">加油卡</a></p>
+						</div>
+						<div class="service-items">
+							<span class="items-pft"></span>
+							<p><a href="">电影票</a></p>
+						</div>
+						<div class="service-items">
+							<span class="items-ptt"></span>
+							<p><a href="">火车票</a></p>
+						</div>
+					</div>
+					<div>
+						<div class="service-items">
+							<span class="items-pcf"></span>
+							<p><a href="">众筹</a></p>
+						</div>
+						<div class="service-items">
+							<span class="items-pcft"></span>
+							<p><a href="">理财</a></p>
+						</div>
+						<div class="service-items">
+							<span class="items-pgc"></span>
+							<p><a href="">礼品卡</a></p>
+						</div>
+						<div class="service-items">
+							<span class="items-plo"></span>
+							<p><a href="">白条</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</html>

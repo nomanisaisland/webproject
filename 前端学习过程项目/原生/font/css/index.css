@@ -1,0 +1,119 @@
+html{
+	font-family: sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+/*导航部分*/
+nav{
+	display: block;
+}
+ul li{
+	float: left;
+	list-style: none;
+}
+a{
+	color: #000000;
+	text-decoration: none;	
+}
+nav{
+	width: 100%;
+	height: 53px;
+	overflow: hidden;
+	min-width: 320px;
+}
+.nav{
+	max-width: 100%;
+	height: 53px;
+}
+.logo{
+	width: 250px;
+	height: 53px;
+	float: left;
+}
+.nav-navbar{
+	max-width: 100%;
+	height: 53px;
+	float: right;
+}
+.nav-navbar ul{
+	height: 53px;
+	line-height: 53px;
+	margin: inherit;   /*前面的margin*/
+	float: right;
+	overflow: hidden;
+}
+.nav-navbar li{
+	display: block;
+	box-sizing: border-box;
+	height: 53px;
+}
+.nav-navbar a{
+	padding: 15px;
+}
+.btn{
+	width: 51px;
+	height: 51px;
+	float: right;
+	text-align: center;
+	border: 1px rgba(145,140,140,.5) solid;
+	cursor: pointer;
+	display: none;
+	opacity: 0.7;
+}
+.btn span{
+	display: inline-block;
+	width: 4px;
+	height: 60%;
+	margin-top: 20%;
+	border: 1px rgba(145,140,140,.5) solid;
+	background-color: #918C8C;
+}
+/*主体*/
+.main{
+	width: 100%;
+	margin-top: 10px;
+}
+   /*轮播图*/
+.slider{
+	overflow: hidden;
+}
+.slider-main{
+	width: 100%;
+	overflow: hidden;
+}
+.slider-main li{
+	display: none;
+	float: left;
+	width: 100%;
+}
+.slider-main li:first-child{
+	display: block;
+}
+.slider-main img{
+	max-width: 100%;
+	height: auto;
+}
+.slider-btn{
+	display: block;
+	z-index: 999;
+}
+.slider-btn ul{
+	display: block;
+	width: 90px;
+	height: 10px;
+	margin: -25px auto;
+}
+.slider-btn li{
+	width: 10px;
+	height: 10px;
+	background-color: #000000;
+	margin-left: 5px;
+	border-radius: 10px;
+}
+.main_content{
+	display: block;
+}

@@ -1,0 +1,18 @@
+html,body,h1,h2,h3,h4,div,nav,ul,li,span,p{
+	margin: 0;
+	padding: 0;
+} 
+html{
+	min-width: 990px;
+}
+body{
+	background-color: rgba(166,166,166,.1);
+}
+ul li{
+	list-style: none;
+	float: left;
+}
+a{
+	text-decoration: none;
+	color: rgba(0,0,0,.5);
+}

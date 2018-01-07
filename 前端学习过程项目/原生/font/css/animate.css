@@ -1,0 +1,42 @@
+@media screen and (max-width: 800px){
+	.nav-navbar{
+		position: absolute;
+		top: 65px;
+		left: 0;
+		float: left;
+		width: 100%;
+		height: 0px;
+		transition: all 0.3s;
+		overflow: hidden;
+		border-bottom: none;
+	}
+	.nav-navbar ul{
+		width: 100%;
+		height: 185px;
+	}
+	.nav-navbar li{
+		width: 100%;
+		height: 30px;
+		line-height: 30px;
+		border-bottom: 1px #e6e6e6 solid;
+	}
+	.nav-navbar a{
+		text-align: left;
+		padding: 0;
+	}
+	.btn{
+		display: block;
+	}
+	.btn:hover{
+		opacity: 0.8;
+	}
+	.btn:active{
+		opacity: 1;
+	}
+	.slider-btn li{
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+}
+}
+	/*轮播图*/
